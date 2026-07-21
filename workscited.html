@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artificial Intelligence in Media Works Cited</title>
+    <link rel ="stylesheet" type ="text/css" href ="style.css">
+    <link rel="icon" type = "image/png" href = "https://codehs.com/uploads/b56822781453c14c403aaf1f8c765b21">
+  </head>
+  <body>
+      <div class = "header2">
+          <div class = "header3">
+              <h1 style = "margin-top:110px"><strong>Works Cited:</strong></h1>
+          </div>
+          <div class="scroll-down">
+              <span><b>⌵</b></span>
+          </div>
+      </div>
+      <button onclick="window.location.href='index.html'">< Back</button>
+      <p style = "padding-left:50px; text-indent: -50px; color: white; line-height:2">“Artificial Intelligence: Generative AI Training, Development, and Deployment Considerations.” <em>GAO Reports</em>, Oct. 2024, pp. 1–12. EBSCOhost, <a href = "https://research.ebsco.com/c/ou447j/viewer/pdf/qwpfo2xzrj">research.ebsco.com/linkprocessor/plink?id=73fd991e-f2f8-3aae-adff-ccaa7d63a864.</a></p>
+      <p style = "padding-left:50px; text-indent: -50px; color: white; line-height:2">Buder, Fabian, and Matthias Unfried. “Consumer Attitudes toward AI-Generated Marketing Content.”<em>e.V.</em>, <a href = "https://www.nim.org/en/research/projects-overview/detail-research-project/transparency-without-trust"> www.nim.org/en/research/projects-overview/detail-research-project/transparency-without-trust. </a>Accessed 25 Jan. 2026.</p>
+      <p style = "padding-left:50px; text-indent: -50px; color: white; line-height:2">Floridi, Luciano. “On the Future of Content in the Age of Artificial Intelligence: Some Implications and Directions.”</em>, vol. 37, no. 3, Sept. 2024, pp. 1–11. EBSCOhost, <a href = "https://doi.org/10.1007/s13347-024-00806-z">https://doi.org/10.1007/s13347-024-00806-z.</a></p>
+      <p style = "padding-left:50px; text-indent: -50px; color: white; line-height:2">Hwang, Yohan, and Jang Ho Lee. "Exploring students' experiences and perceptions of human-AI collaboration in digital content making." <em>International Journal of Educational Technology in Higher Education</em>, vol. 22, no. 1, Dec. 2025, p. NA(NA). Gale In Context: Global Issues, <a href = "https://dx.doi.org/10.1186/s41239-025-00542-0">dx.doi.org/10.1186/s41239-025-00542-0.</a> Accessed 26 Jan. 2026.</p>
+      <p style = "padding-left:50px; text-indent: -50px;; color: white; line-height:2">Yao, Fan, et al. “Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict?” <em>Arxiv.Org</em>, 23 Feb. 2024, <a href = "https://arxiv.org/html/2402.15467v1">arxiv.org/html/2402.15467v1.</a></p>
+      <button id = "backToTop" title = "Back to top">↑</button>
+      <script>
+      document.querySelector('.scroll-down').addEventListener('click', () => {
+          window.scrollBy({ top:450, behavior:'smooth'});
+      });
+      const button = document.getElementById("backToTop");
+      window.addEventListener("scroll",() =>{
+          if(window.scrollY > 300){
+              button.style.display = "block";
+          } else{
+              button.style.display = "none";
+          }
+      });
+      button.addEventListener("click", () =>{
+          window.scrollTo({
+              top:0,
+              behavior: "smooth"
+          })
+      });
+      </script>
+    </body>
+    
+</html>
