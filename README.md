@@ -3,7 +3,7 @@ README draft
 
 AI & Social Media Research Dashboard
 
-Interactive website presenting research on how AI recommendation algorithms influence social media engagement metrics.
+Interactive website presenting research on how AI recommendation algorithms  and AI content can influence social media engagement metrics.
 
 Technologies Used
 
@@ -17,7 +17,7 @@ CodeHS (original development environment)
 
 Project Overview
 
-This project was created as my high school senior capstone. I developed a research question focused on the relationship between artificial intelligence recommendation systems and user engagement on social media platforms. After completing an annotated bibliography and conducting independent research, I designed this website as the required physical media component of the project.
+This project was created as my high school senior capstone. I developed a research question focused on the relationship between AI recommendation systems, AI generated content, and user engagement on social media platforms. After completing an annotated bibliography and conducting independent research, I designed this website as the required physical media component of the project.
 
 The site functions as a research communication dashboard that presents key findings, engagement trends, and analysis in an interactive format. At the conclusion of the project, I presented the website and my findings to a panel of teachers.
 
